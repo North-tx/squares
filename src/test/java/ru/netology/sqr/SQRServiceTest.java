@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class SQRServiceTest {
     @Test
-    public void calcTest(){
+    public void calcTest() {
         SQRService service = new SQRService();
 
         int actual = service.calc(200, 300);
